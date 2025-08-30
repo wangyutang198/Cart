@@ -1,0 +1,24 @@
+
+$_SESSION["cart_products"]  cart_products代表購物車裡的商品
+
+整句話代表會談中的有購物車的商品
+
+
+
+這些變數主要含意是資料庫的欄位
+$product_name = $cart_itm["product_name"];
+$product_qty = $cart_itm["product_qty"];
+$product_price = $cart_itm["product_price"];
+$product_code = $cart_itm["product_code"];
+$product_color = $cart_itm["product_color"];
+
+
+$cart_itm["product_name"]  代表購物車裡的項目，(內容可以是商品名稱)
+
+
+
+
+
+
+
+
